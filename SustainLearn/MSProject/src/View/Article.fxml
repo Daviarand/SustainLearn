@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1600.0" stylesheets="@../tampilan.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ArticleController">
+   <children>
+      <BorderPane prefHeight="800.0" prefWidth="1600.0">
+         <center>
+            <ScrollPane layoutX="-107.0" prefHeight="800.0" prefWidth="1600.0" BorderPane.alignment="CENTER">
+               <content>
+                  <AnchorPane prefHeight="1200.0" prefWidth="1600.0" style="-fx-background-color: white;">
+                     <children>
+                        <Pane layoutX="12.800000000000182" layoutY="80.0" prefHeight="550.0" prefWidth="1525.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white;" AnchorPane.rightAnchor="61.59999999999991">
+                           <children>
+                              <ImageView fitHeight="205.0" fitWidth="1070.0" layoutX="22.0" layoutY="22.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Picture&amp;Video/artikel%20makanan%20panjang.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="495.0" fitWidth="390.0" layoutX="1115.0" layoutY="20.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Picture&amp;Video/artikel%20bisnis%20gagall.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="270.0" fitWidth="525.0" layoutX="568.0" layoutY="246.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Picture&amp;Video/Untitled%20design%20(3).png" />
+                                 </image>
+                              </ImageView>
+                              <Button layoutX="40.0" layoutY="160.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="See More" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Text fill="WHITE" layoutX="53.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Indeks Bisnis UMKM BRI: Ekspansi Bisnis UMKM Berlanjut dengan Optimisme yang Meningkat" wrappingWidth="415.8320617675781">
+                                 <font>
+                                    <Font name="System Bold Italic" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Button layoutX="40.0" layoutY="457.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="See More" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="1270.0" layoutY="457.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="See More" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font></Button>
+                              <Button layoutX="600.0" layoutY="457.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="See More" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                              <ToggleButton fx:id="btnSatu" layoutX="22.0" layoutY="246.0" mnemonicParsing="false" onAction="#handlebtnSatu" prefHeight="270.0" prefWidth="525.0" style="-fx-background-color: transparent;">
+                                 <graphic>
+                                    <ImageView fitHeight="270.0" fitWidth="525.0" pickOnBounds="true">
+                                       <image>
+                                          <Image url="@../Picture&amp;Video/artikel%20pedagang%20cornerr.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </ToggleButton>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="15.0" layoutY="649.0" prefHeight="525.0" prefWidth="1525.0" style="-fx-background-color: white; -fx-background-radius: 20; -fx-border-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="205.0" fitWidth="1070.0" layoutX="437.0" layoutY="22.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Picture&amp;Video/artikel%20waktu%20corner.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="270.0" fitWidth="525.0" layoutX="440.0" layoutY="246.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Picture&amp;Video/artikel2.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="270.0" fitWidth="525.0" layoutX="980.0" layoutY="246.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Picture&amp;Video/artikel3.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="495.0" fitWidth="390.0" layoutX="18.0" layoutY="19.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../Picture&amp;Video/artikel%20mencari%20karyawan%20corner.png" />
+                                 </image>
+                              </ImageView>
+                              <Button layoutX="1080.0" layoutY="180.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="See More" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="40.0" layoutY="457.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="See More" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="600.0" layoutY="457.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="See More" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="1270.0" layoutY="457.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="See More" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </center>
+      </BorderPane>
+      <AnchorPane prefHeight="80.0" prefWidth="1600.0" style="-fx-background-color: white;">
+         <children>
+            <Button layoutX="580.0" layoutY="26.0" mnemonicParsing="false" onAction="#CheckUKM" style="-fx-background-color: transparent;" styleClass="textBlack14" text="Check UKM" />
+            <Button layoutX="480.0" layoutY="26.0" mnemonicParsing="false" onAction="#HomePage" style="-fx-background-color: transparent;" styleClass="textBlack14" text="Home" />
+            <ImageView fitHeight="60.0" fitWidth="94.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Picture&amp;Video/Screenshot_2024-06-25_105642-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="710.0" layoutY="26.0" mnemonicParsing="false" onAction="#Courses" style="-fx-background-color: transparent;" styleClass="textBlack14" text="Courses" />
+            <Button layoutX="950.0" layoutY="26.0" mnemonicParsing="false" onAction="#Article" style="-fx-background-color: transparent;" styleClass="textBlack14" text="Article" />
+            <Line endX="18.5999755859375" endY="-0.399993896484375" layoutX="985.0" layoutY="60.0" startX="-33.4000244140625" startY="-0.3999977111816406" stroke="#b3e2a7" strokeWidth="2.0">
+               <effect>
+                  <DropShadow height="15.0" radius="4.5" width="5.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Line>
+            <Button layoutX="1457.0" layoutY="23.0" mnemonicParsing="false" onAction="#Profile" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Picture&amp;Video/user.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button layoutX="815.0" layoutY="26.0" mnemonicParsing="false" onAction="#Consultation" style="-fx-background-color: transparent;" styleClass="textBlack14" text="Consultation" />
+            <Button layoutX="1050.0" layoutY="26.0" mnemonicParsing="false" onAction="#About" style="-fx-background-color: transparent;" styleClass="textBlack14" text="About" />
+         </children>
+      </AnchorPane>
+      <ScrollPane fx:id="kontenSatuPane" prefHeight="800.0" prefWidth="1600.0" visible="false">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1600.0" prefWidth="1600.0">
+               <children>
+                  <ImageView fitHeight="465.0" fitWidth="1572.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../../../../../Pictures/WhatsApp%20Image%202024-07-04%20at%2015.47.45_e5e8fd4e.jpg" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutX="1.0" layoutY="417.0" prefHeight="1600.0" prefWidth="1557.0" style="-fx-background-color: grey; -fx-background-radius: 20;">
+                     <children>
+                        <Text layoutX="313.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Judul: Going Green’ untuk Berkembang: AlasanKeberlanjutan sangat Penting bagi Bisnis UMKM">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <TextArea layoutX="22.0" layoutY="76.0" prefHeight="1086.0" prefWidth="1537.0" text="Saat ini keberlanjutan telah menjadi salah satu aspek yang paling penting untuk dipertimbangkan, khususnya dalam menjalankan bisnis. Implementasi praktik keberlanjutan dan ramah lingkungan tidak hanya tentang melakukan hal yang benar untuk lingkungan, tetapi juga terkait dengan pengambilan keputusan bisnis yang cerdas. Hal tersebut tentunya dapat membantu bisnis UMKM tumbuh dan berkembang dalam jangka panjang, terutama jika UMKM mengintegrasikannya ke dalam model dan strategi bisnis mereka.&#10;&#10;Berdasarkan data dari Accenture pada tahun 2022, 65% UMKM di ASEAN menegaskan bahwa praktik keberlanjutan telah menjadi pertimbangan, menunjukkan tingkat kesadaran mereka terhadap pentingnya implementasi keberlanjutan pada bisnis. Implementasi tersebut termasuk pada pengembangan model bisnis baru, peningkatan efisiensi sumber daya, dan perampingan produk dan layanan menuju cara yang lebih berkelanjutan.&#10; &#10;&#10;&#10;Apa yang dimaksud dengan keberlanjutan dalam bisnis?&#10;Keberlanjutan dalam bisnis merupakan integrasi praktik dan strategi yang memungkinkan perusahaan untuk beroperasi dengan cara yang bertanggung jawab secara lingkungan, sosial dan ekonomi serta memperhatikan keberhasilan dan profitabilitas bisnis jangka panjang. Integrasi tersebut mencakup kemampuan dan komitmen untuk menyeimbangkan kebutuhan bisnis dengan kebutuhan masyarakat dan lingkungan, dengan mempertimbangkan dampak praktik bisnis terhadap masyarakat dan planet.&#10;&#10;Perspektif lingkungan&#10;Dari sisi lingkungan, penerapan keberlanjutan dalam bisnis mengacu pada pengurangan dampak lingkungan dari operasi bisnis yang dijalankan. Hal ini dapat dilakukan dengan meminimalkan&#10;limbah, menggunakan sumber daya secara efisien, serta mempertimbangkan penerapan model ekonomi sirkular, seperti mengurangi emisi karbon.&#10;&#10;Perspektif sosial&#10;Dari sisi sosial, penerapan keberlanjutan dalam bisnis mengacu pada tanggung jawab sosial dan kontribusi positif ke masyarakat. Pada aspek ini, kualitas hubungan dan komitmen perusahaan terhadap para pemangku kepentingan terbilang cukup penting. Aspek ini dapat diimplementasikan ke dalam bisnis dengan berbagai cara, seperti memperlakukan karyawan secara adil, memastikan lingkungan kerja yang aman, memastikan kepuasan pelanggan, serta melakukan aktivitas yang melibatkan masyarakat dan melakukan pekerjaan sukarela (volunteer).&#10;&#10;erspektif ekonomi&#10;Dari sisi ekonomi, keberlanjutan dalam bisnis dapat diimplementasikan dengan mengadopsi model berkelanjutan yang dapat mendorong pertumbuhan ekonomi dan kesejahteraan. Perusahaan dapat melakukannya dengan berbagai cara, seperti berinvestasi dalam teknologi berkelanjutan, mengadopsi konsep ekonomi sirkular sebagai model bisnis mereka, dan melakukan penilaian keberlanjutan atau analisis dampak sebelum mengambil keputusan.&#10; &#10;Manfaat Implementasi&#10;Keberlanjutan ke dalam Model Bisnis UMKM&#10;Manfaat yang diperoleh dari penerapan keberlanjutan dalam bisnis dapat dilihat dari kisah sukses salah satu perusahaan plastik biodegradable berbasis pati. Pada saat itu, tidak ada yang menyangka bahwa pati dan singkong dapat menjadi alternatif pengganti plastik. Di samping itu, bisnis ini juga memiliki banyak nilai tambah, baik dari aspek sosial, ekonomi, maupun lingkungan.&#10;&#10;Di Indonesia terdapat perusahaan bernama Rebricks yang dikenal dapat mengubah sampah plastik menjadi bahan bangunan berkualitas tinggi. Perusahaan ini mengimplementasikan konsep keberlanjutan ke dalam model bisnis mereka. Mereka mencoba memanfaatkan model ekonomi sirkular dengan mengurangi sampah plastik yang berbahaya bagi lingkungan dan mendaur ulang&#10;limbah tersebut menjadi bahan bangunan yang memiliki nilai bisnis.&#10;&#10;Meningkatkan efisiensi dan penghematan biaya&#10;Penerapan aspek ekonomi dan lingkungan, praktik pengurangan limbah, efisiensi energi, serta manajemen rantai pasokan yang berkelanjutan dapat membantu UMKM untuk mengurangi biaya operasional, menghemat uang, serta meningkatkan efisiensi. Sehingga UMKM dapat memiliki peluang yang lebih baik untuk meningkatkan profitabilitas dan daya saing.&#10;&#10;Contohnya Rebricks, perusahaan asal Indonesia yang mendapatkan keuntungan berupa peningkatan efisiensi dan penghematan biaya produksi. Perusahaan ini menghemat biaya bahan baku usaha dengan mengandalkan 17.500 kilogram sampah plastik yang akan di daur ulang menjadi bahan bangunan. Model bisnis ini tentunya memungkinkan para UMKM yang ingin menjalankan bisnis serupa untuk memperoleh penghasilan hingga Rp 950 ribu per hari.&#10;&#10;Meningkatkan reputasi dan citra merek serta akses ke pasar dan pelanggan baru&#10; &#10;Salah satu fokus utama dalam aspek sosial adalah memastikan kesejahteraan karyawan serta kepuasan pelanggan. Perusahaan yang memperhatikan poin-poin ini ketika menjalankan bisnis cenderung lebih mudah dalam meningkatkan reputasi dan citra merek. Hal ini juga akan membantu memperkuat bisnis perusahaan dalam jangka panjang, yaitu dengan mempertahankan pelanggan yang ada dan menarik lebih banyak pelanggan baru yang fokus dan peduli pada keberlanjutan.&#10;&#10;Di samping itu, keberlanjutan juga telah menjadi pertimbangan utama yang berdampak pada keputusan dan membentuk pola hidup pelanggan. Dengan menerapkan gaya hidup keberlanjutan, pelanggan menjadi lebih sadar dan cenderung mencari produk dan layanan yang sejalan dengan nilai-nilai keberlanjutan. Oleh karena itu, dengan menerapkan prinsip keberlanjutan pada model bisnisnya, UMKM dapat menyesuaikan diri dengan permintaan yang terus meningkat akan produk dan layanan berkelanjutan. Hal ini pada akhirnya dapat membantu UMKM memperluas pangsa pasar dan basis pelanggan mereka.&#10;&#10;Contohnya yaitu Rebricks, perusahaan asal Indonesia yang mengubah sampah plastik berlapis-lapis menjadi produk bernilai seperti batu bata. Melalui hal tersebut, perusahaan tidak hanya meningkatkan reputasi dan citra mereknya tetapi juga mendapatkan akses yang lebih luas ke pasar dan pelanggan baru. Hal ini karena bisnis tersebut memiliki peluang pasar yang luas mulai dari model business-to-business, business-to-consumer hingga business-to-government.&#10;&#10;&#10;Peluang pendanaan&#10;Dengan memenuhi persyaratan regulasi, lingkungan, dan sosial, maka keberadaan UMKM dapat lebih kuat dan lebih menarik bagi investor dan pemberi dana. Dengan demikian, peluang bisnis&#10;terhadap pendanaan baru dan lebih menarik akan semakin terbuka. Selain itu, tidak sedikit lembaga pemerintah dan investor yang saat ini fokus pada investasi keberlanjutan.&#10;&#10;Kesimpulannya, mempertimbangkan penerapan aspek keberlanjutan ke dalam model bisnis sangat penting untuk mencapai pertumbuhan ekonomi yang lebih tinggi, memastikan citra positif jangka panjang, serta menghindari risiko hukum, keuangan, dan lingkungan. Model bisnis yang menerapkan keberlanjutan telah menjadi daya tarik tersendiri bagi pelanggan, pemerintah dan&#10;investor. Hal ini tentunya dapat membuka peluang bagi UMKM untuk mendapatkan lebih banyak pendanaan. Kita dapat meningkatkan kesadaran terhadap keberlanjutan mulai dari mengurangi penggunaan energi, memilih produk pengganti plastik, menciptakan tempat kerja yang aman bagi karyawan, dan masih banyak lagi.&#10;" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

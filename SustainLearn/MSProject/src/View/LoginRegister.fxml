@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: White;" stylesheets="@../tampilan.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginRegisterController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Picture&amp;Video/canva%20hd%202.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="904.0" layoutY="200.0" prefHeight="420.0" prefWidth="297.0" style="-fx-background-color: white;" />
+      <Pane layoutX="539.0" layoutY="200.0" prefHeight="420.0" prefWidth="365.0" style="-fx-background-color: white;" />
+      <Rectangle fx:id="layerSembunyiMasuk" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="420.0" layoutX="904.0" layoutY="200.0" strokeType="INSIDE" style="visibility: true;" width="297.0" />
+      <Rectangle fx:id="layerSembunyiDaftar" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="420.0" layoutX="539.0" layoutY="200.0" stroke="transparent" strokeType="INSIDE" style="visibility: true;" width="365.0" />
+      <ChoiceBox layoutX="593.0" layoutY="476.0" prefHeight="26.0" prefWidth="234.0" style="-fx-background-color: transparent; -fx-border-color: grey;" />
+      <Button layoutX="593.0" layoutY="522.0" mnemonicParsing="false" onAction="#RegisterButton" prefHeight="27.0" prefWidth="234.0" style="-fx-background-color: transparent; -fx-border-color: green;" text="Register" />
+      <Label layoutX="603.0" layoutY="247.0" text="Register">
+         <font>
+            <Font name="Ebrima" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="UsernameField" layoutX="593.0" layoutY="311.0" prefHeight="27.0" prefWidth="234.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: gold; -fx-border-radius: 30;" />
+      <PasswordField fx:id="PasswordField" layoutX="593.0" layoutY="395.0" prefHeight="27.0" prefWidth="234.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: gold; -fx-border-radius: 30;" />
+      <TextField fx:id="UsernameFieldLogin" layoutX="906.0" layoutY="331.0" prefHeight="27.0" prefWidth="248.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: gold; -fx-border-radius: 30;" />
+      <PasswordField fx:id="PasswordFieldLogin" layoutX="905.0" layoutY="376.0" prefHeight="27.0" prefWidth="248.0" promptText="Password" style="-fx-background-color: Transparent; -fx-border-color: gold; -fx-border-radius: 30;" />
+      <TextField fx:id="EmailField" layoutX="593.0" layoutY="353.0" prefHeight="27.0" prefWidth="234.0" promptText="Email" style="-fx-background-color: transparent; -fx-border-color: gold; -fx-border-radius: 30;" />
+      <Text layoutX="647.0" layoutY="571.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Sudah punya akun?" />
+      <Text fx:id="txMasuk" layoutX="752.0" layoutY="572.0" onMouseClicked="#PindahMasuk" onMouseEntered="#WarnaMasukMasuk" onMouseExited="#WarnaMasukKeluar" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="40.0" />
+      <Button layoutX="906.0" layoutY="449.0" mnemonicParsing="false" onAction="#LoginButton" prefHeight="27.0" prefWidth="248.0" style="-fx-background-color: transparent; -fx-border-color: green;" text="Login" />
+      <Label layoutX="916.0" layoutY="254.0" text="Login">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Text layoutX="966.0" layoutY="496.0" opacity="0.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Tidak punya akun?" />
+      <Text fx:id="txDaftar" layoutX="1069.0" layoutY="497.0" onMouseClicked="#PindahDaftar" onMouseEntered="#WarnaDaftarMasuk" onMouseExited="#WarnaDaftarKeluar" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" />
+      <Rectangle fx:id="layerPenutup" arcHeight="5.0" arcWidth="5.0" fill="#16606d" height="506.0" layoutX="539.0" layoutY="158.0" stroke="TRANSPARENT" strokeType="INSIDE" style="visibility: true; -fx-arc-height: 50; -fx-arc-width: 50;" width="297.0" />
+      <ImageView fx:id="logo" fitHeight="256.0" fitWidth="248.0" layoutX="564.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Picture&amp;Video/Screenshot_2024-06-25_105642-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="logo1" fitHeight="75.0" fitWidth="300.0" layoutX="538.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Picture&amp;Video/The%20Future%20of%20Sustainable%20Business%20Starts%20Here%20(200%20x%2050%20px).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

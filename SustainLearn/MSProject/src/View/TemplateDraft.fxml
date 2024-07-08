@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="Controller.TemplateDraft">
+    <ImageView fx:id="image" fitHeight="203.0" fitWidth="207.0" />
+    <Label fx:id="judul" layoutX="14.0" layoutY="224.0" text="Judul Artikel" />
+    <Label fx:id="penulis" layoutX="14.0" layoutY="254.0" text="Penulis Artikel" />
+</AnchorPane>

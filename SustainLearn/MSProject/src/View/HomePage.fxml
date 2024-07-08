@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1600.0" stylesheets="@../tampilan.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomePageController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1605.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Picture&amp;Video/homepage%20logo%20new.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="70.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Indeks Bisnis UMKM BRI: Ekspansi Bisnis UMKM Berlanjut dengan Optimisme yang Meningkat" wrappingWidth="639.6643676757812">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+      <AnchorPane prefHeight="80.0" prefWidth="1600.0" style="-fx-background-color: white;">
+         <children>
+            <Button layoutX="580.0" layoutY="26.0" mnemonicParsing="false" onAction="#CheckUKM" style="-fx-background-color: transparent;" styleClass="textBlack14" text="Check UKM" />
+            <Button layoutX="480.0" layoutY="26.0" mnemonicParsing="false" onAction="#HomePage" style="-fx-background-color: transparent;" styleClass="textBlack14" text="Home" />
+            <ImageView fitHeight="60.0" fitWidth="94.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Picture&amp;Video/Screenshot_2024-06-25_105642-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="710.0" layoutY="26.0" mnemonicParsing="false" onAction="#Courses" style="-fx-background-color: transparent;" styleClass="textBlack14" text="Courses" />
+            <Button layoutX="950.0" layoutY="26.0" mnemonicParsing="false" onAction="#Article" style="-fx-background-color: transparent;" styleClass="textBlack14" text="Article" />
+            <Button layoutX="1457.0" layoutY="23.0" mnemonicParsing="false" onAction="#Profile" style="-fx-background-color: transparent;" styleClass="textBlack14">
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Picture&amp;Video/user.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="815.0" layoutY="26.0" mnemonicParsing="false" onAction="#Consultation" style="-fx-background-color: transparent;" styleClass="textBlack14" text="Consultation" />
+            <Button layoutX="1050.0" layoutY="26.0" mnemonicParsing="false" onAction="#About" style="-fx-background-color: transparent;" styleClass="textBlack14" text="About" />
+            <Line endX="26.0" endY="-0.40000152587890625" layoutX="508.0" layoutY="60.0" startX="-24.60003662109375" startY="-0.40000152587890625" stroke="#b3e2a7" strokeWidth="2.0">
+               <effect>
+                  <DropShadow height="15.0" radius="4.5" width="5.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Line>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
